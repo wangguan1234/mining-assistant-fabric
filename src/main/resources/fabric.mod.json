@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "mining_assistant",
+  "version": "${version}",
+  "name": "挖矿辅助",
+  "authors": ["wangguan123"],
+  "description": "独立的 Baritone 自动挖矿、选区、食物、自动保护和紧急回家面板。",
+  "environment": "client",
+  "entrypoints": { "client": ["cn.wangguan.miningassistant.MiningAssistantClient"] },
+  "mixins": ["mining-assistant.mixins.json"],
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "26.2", "java": ">=25" }
+}
+

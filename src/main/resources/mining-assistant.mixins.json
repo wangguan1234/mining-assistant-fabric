@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "cn.wangguan.miningassistant.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["MinecraftMixin", "OptionsMixin", "ClientPacketListenerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
+

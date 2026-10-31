@@ -1,0 +1,7 @@
+# 统一换行，避免 Windows 下 CRLF 污染
+* text=auto eol=lf
+*.jar binary
+*.png binary
+*.ogg binary
+gradlew text eol=lf
+gradlew.bat text eol=crlf

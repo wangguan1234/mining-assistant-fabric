@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEA / VSCode
+.idea/
+*.iml
+.vscode/
+
+# 游戏运行目录与日志
+run/
+logs/
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地临时文件
+*.tmp
+*.bak
