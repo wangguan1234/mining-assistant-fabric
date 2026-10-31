@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "挖矿辅助",
   "authors": ["wangguan123"],
-  "description": "独立的 Baritone 自动挖矿、选区、食物、自动保护和紧急回家面板。",
+  "description": "Baritone 的增强优化层：中文界面、选区挖掘、自动进食、受击自保和紧急回家。不含 Baritone 本体，需另行安装。",
   "environment": "client",
   "entrypoints": { "client": ["cn.wangguan.miningassistant.MiningAssistantClient"] },
   "mixins": ["mining-assistant.mixins.json"],
